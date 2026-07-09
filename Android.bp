@@ -15935,7 +15935,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdservice",
     owner: "xiaomi",
-    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
@@ -17131,6 +17130,8 @@ cc_prebuilt_binary {
                 "libavservices_minijail",
                 "libbinder",
                 "libhidlbase",
+                "libhidltransport",
+                "libhwbinder",
                 "libcodec2_vndk",
                 "libstagefright_omx",
                 "libstagefright_xmlparser",
