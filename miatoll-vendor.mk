@@ -958,8 +958,7 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     xtra-daemon \
     dpmd \
-    wfdservice64 \
-    libpn553_fw
+    wfdservice64
 PRODUCT_PACKAGES += \
     vendor_lib_libEGL_adreno_so \
     vendor_lib_libGLESv2_adreno_so \
