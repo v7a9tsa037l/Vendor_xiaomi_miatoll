@@ -15854,6 +15854,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdservice",
     owner: "xiaomi",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
